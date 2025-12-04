@@ -1,0 +1,15 @@
+dataset_path: "data/synthetic_fb_ads_undergarments.csv"
+
+schema:
+  campaign_name: str
+  impressions: int
+  clicks: int
+  spend: float
+  revenue: float
+  conversions: int
+
+thresholds:
+  ctr_drop_pct: 20
+  roas_drop_pct: 15
+  confidence_weight: 0.3
+  severity_high: 0.7
